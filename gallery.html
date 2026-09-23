@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View clinic facilities, treatment rooms, orthodontic procedures, and dental technology.">
+    <title>Gallery | Dr. Laith AL-Ramahi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navbar -->
+    <header id="header">
+        <nav>
+            <a href="index.html" class="logo">
+                <div class="logo-icon">L<br>R</div>
+                <div class="logo-text">
+                    <span data-i18n="drName">Dr. Laith AL-Ramahi</span>
+                    <span class="logo-sub" data-i18n="specialty">Orthodontics</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="navHome">Home</a></li>
+                <li><a href="services.html" data-i18n="navServices">Services</a></li>
+                <li><a href="about.html" data-i18n="navAbout">About Us</a></li>
+                <li><a href="gallery.html" class="active" data-i18n="navGallery">Gallery</a></li>
+                <li><a href="contact.html" data-i18n="navContact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button id="lang-switcher" class="lang-btn" aria-label="Language switch">EN | AR</button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sidebar Overlay & Menu -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+    <aside class="sidebar-menu" id="sidebar-menu">
+        <a href="index.html" class="sidebar-logo">
+            <div class="logo-icon">L<br>R</div>
+            <div class="logo-text">
+                <span data-i18n="drName">Dr. Laith AL-Ramahi</span>
+                <span class="logo-sub" data-i18n="specialty">Orthodontics</span>
+            </div>
+        </a>
+        <ul class="sidebar-links">
+            <li><a href="index.html" data-i18n="navHome">Home</a></li>
+            <li><a href="services.html" data-i18n="navServices">Services</a></li>
+            <li><a href="about.html" data-i18n="navAbout">About Us</a></li>
+            <li><a href="gallery.html" data-i18n="navGallery">Gallery</a></li>
+            <li><a href="contact.html" data-i18n="navContact">Contact</a></li>
+        </ul>
+        <div class="sidebar-cta">
+            <h3 data-i18n="connectWithUs">Connect With Us</h3>
+            <div class="social-group">
+                <a href="#" class="s-fb" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="s-ig" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="s-wa" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" class="s-li" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="s-yt" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <!-- Page Hero (Matches screenshot 10) -->
+        <section class="page-hero reveal">
+            <div class="page-hero-content">
+                <div class="breadcrumbs">
+                    <a href="index.html" data-i18n="navHome">HOME</a> &gt; <span data-i18n="navGallery">GALLERY</span>
+                </div>
+                <h1 data-i18n="galleryHeroTitle">Clinic Gallery</h1>
+                <p data-i18n="galleryHeroDesc">Explore our clean, comfortable facilities and state-of-the-art dental technology designed to make your visits pleasant, efficient, and stress-free.</p>
+                <a href="contact.html" class="btn-main" data-i18n="btnContact">Contact Us</a>
+            </div>
+            <div class="page-hero-visual">
+                <div class="page-hero-shape"></div>
+                <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dr. Laith AL-Ramahi">
+            </div>
+        </section>
+
+        <!-- Full Gallery Section -->
+        <section class="gallery-full reveal">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all" data-i18n="filterAll">All</button>
+                <button class="filter-btn" data-filter="clinic" data-i18n="filterClinic">Clinic</button>
+                <button class="filter-btn" data-filter="treatment" data-i18n="filterTreatment">Treatment</button>
+                <button class="filter-btn" data-filter="technology" data-i18n="filterTech">Technology</button>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Clinic Interior" class="lightbox-trigger filter-item" data-category="clinic">
+                <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Treatment Suite" class="lightbox-trigger filter-item" data-category="treatment">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dental Imaging Tech" class="lightbox-trigger filter-item" data-category="technology">
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Reception Lounge" class="lightbox-trigger filter-item" data-category="clinic">
+                <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Orthodontic Consultation" class="lightbox-trigger filter-item" data-category="treatment">
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Diagnostic Suite" class="lightbox-trigger filter-item" data-category="technology">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-icon">L<br>R</div>
+                <p data-i18n="footerTagline">Premium dental care ensuring your perfect smile.</p>
+                <div class="social-group">
+                    <a href="#" class="s-fb" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="s-ig" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="s-wa" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="s-li" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="s-yt" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footerQuick">Quick Links</h4>
+                <a href="index.html" data-i18n="navHome">Home</a>
+                <a href="services.html" data-i18n="navServices">Services</a>
+                <a href="about.html" data-i18n="navAbout">About Us</a>
+                <a href="gallery.html" data-i18n="navGallery">Gallery</a>
+                <a href="contact.html" data-i18n="navContact">Contact</a>
+            </div>
+            <div class="footer-contact">
+                <h4 data-i18n="navContact">Contact</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Amman, Jordan</p>
+                <p><i class="fa-solid fa-phone"></i> +962 7 0000 0000</p>
+                <p><i class="fa-solid fa-envelope"></i> info@dramahi-dental.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dr. Laith AL-Ramahi Clinic. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="#" class="floating-wa" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged Image">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

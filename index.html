@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Laith AL-Ramahi - Specialist in Orthodontics and Premium Dental Care.">
+    <title>Dr. Laith AL-Ramahi | Orthodontics & Dental Care</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home-page">
+
+    <!-- Header & Navbar -->
+    <header id="header">
+        <nav>
+            <a href="index.html" class="logo">
+                <div class="logo-icon">L<br>R</div>
+                <div class="logo-text">
+                    <span data-i18n="drName">Dr. Laith AL-Ramahi</span>
+                    <span class="logo-sub" data-i18n="specialty">Orthodontics</span>
+                </div>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="active" data-i18n="navHome">Home</a></li>
+                <li><a href="services.html" data-i18n="navServices">Services</a></li>
+                <li><a href="about.html" data-i18n="navAbout">About Us</a></li>
+                <li><a href="gallery.html" data-i18n="navGallery">Gallery</a></li>
+                <li><a href="contact.html" data-i18n="navContact">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <button id="lang-switcher" class="lang-btn" aria-label="Language switch">EN | AR</button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sidebar Overlay & Menu -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+    <aside class="sidebar-menu" id="sidebar-menu">
+        <a href="index.html" class="sidebar-logo">
+            <div class="logo-icon">L<br>R</div>
+            <div class="logo-text">
+                <span data-i18n="drName">Dr. Laith AL-Ramahi</span>
+                <span class="logo-sub" data-i18n="specialty">Orthodontics</span>
+            </div>
+        </a>
+        <ul class="sidebar-links">
+            <li><a href="index.html" data-i18n="navHome">Home</a></li>
+            <li><a href="services.html" data-i18n="navServices">Services</a></li>
+            <li><a href="about.html" data-i18n="navAbout">About Us</a></li>
+            <li><a href="gallery.html" data-i18n="navGallery">Gallery</a></li>
+            <li><a href="contact.html" data-i18n="navContact">Contact</a></li>
+        </ul>
+        <div class="sidebar-cta">
+            <h3 data-i18n="connectWithUs">Connect With Us</h3>
+            <div class="social-group">
+                <a href="#" class="s-fb" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="s-ig" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="s-wa" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" class="s-li" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="s-yt" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero reveal">
+            <div class="hero-visual">
+                <div class="abstract-shape shape-left"></div>
+                <div class="abstract-shape shape-right"></div>
+                <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dr. Laith AL-Ramahi" class="doctor-image">
+            </div>
+            <div class="hero-content">
+                <h1 data-i18n="heroTitle">Dr. Laith AL-Ramahi</h1>
+                <p data-i18n="heroDesc">Expert dental care and orthodontics with a personalized approach. We combine modern technology with years of experience to give you the perfect smile.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn-main" data-i18n="btnServices">Explore Our Services</a>
+                    <a href="contact.html" class="btn-secondary" data-i18n="btnContact">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust / Statistics -->
+        <section class="statistics reveal">
+            <div class="stat-item">
+                <h2 class="stat-num">10+</h2>
+                <p data-i18n="statExp">Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="stat-num">5,000+</h2>
+                <p data-i18n="statPatients">Happy Patients</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="stat-num">98%</h2>
+                <p data-i18n="statSatisfaction">Patient Satisfaction</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="stat-num"><i class="fa-solid fa-tooth"></i></h2>
+                <p data-i18n="statCare">Modern Dental Care</p>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section class="services-preview reveal">
+            <div class="section-header">
+                <h2 data-i18n="secServicesTitle">Our Premium Services</h2>
+                <p data-i18n="secServicesDesc">Comprehensive dental care tailored to your needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-tooth service-icon"></i>
+                    <h3 data-i18n="srvGeneral">General Dentistry</h3>
+                    <p data-i18n="srvGeneralDesc">Routine check-ups, professional cleanings, and preventive care.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-teeth service-icon"></i>
+                    <h3 data-i18n="srvOrtho">Orthodontics</h3>
+                    <p data-i18n="srvOrthoDesc">Braces and clear aligners designed for a straight smile.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-teeth-open service-icon"></i>
+                    <h3 data-i18n="srvImplants">Dental Implants</h3>
+                    <p data-i18n="srvImplantsDesc">Permanent, natural-looking solutions for missing teeth.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-face-smile service-icon"></i>
+                    <h3 data-i18n="srvCosmetic">Cosmetic Dentistry</h3>
+                    <p data-i18n="srvCosmeticDesc">Veneers and whitening for enhanced aesthetics and confidence.</p>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="services.html" class="btn-main" data-i18n="btnViewAll">View All Services</a>
+            </div>
+        </section>
+
+        <!-- About Doctor -->
+        <section class="about-doctor reveal">
+            <div class="about-grid">
+                <div class="about-img-container">
+                    <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Doctor Profile" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h2 data-i18n="secAboutTitle">Meet The Doctor</h2>
+                    <h3 data-i18n="drName">Dr. Laith AL-Ramahi</h3>
+                    <p data-i18n="aboutBio">With over a decade of dedicated experience in orthodontics and cosmetic dentistry, Dr. Laith focuses on patient comfort and outstanding clinical results. Our clinic philosophy is built on trust, transparency, and modern techniques.</p>
+                    <ul class="qualifications">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="qual1">Certified Orthodontist</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="qual2">Member of Dental Association</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="qual3">Advanced Implantology Certified</span></li>
+                    </ul>
+                    <a href="about.html" class="btn-main mt-2" data-i18n="btnLearnMore">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Before & After Slider -->
+        <section class="before-after reveal">
+            <div class="section-header">
+                <h2 data-i18n="secBaTitle">Transformations</h2>
+                <p data-i18n="secBaDesc">Real results from our dedicated treatments.</p>
+            </div>
+            <div class="ba-container">
+                <div class="ba-slider">
+                    <div class="ba-image ba-after">
+                        <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="After Treatment">
+                        <span class="ba-label label-after" data-i18n="labelAfter">After</span>
+                    </div>
+                    <div class="ba-image ba-before">
+                        <img src="https://images.unsplash.com/photo-1598256989800-fea5ce5146f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Before Treatment">
+                        <span class="ba-label label-before" data-i18n="labelBefore">Before</span>
+                    </div>
+                    <div class="ba-slider-handle">
+                        <div class="ba-slider-arrows">
+                            <i class="fa-solid fa-caret-left"></i>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="why-choose-us reveal">
+            <div class="section-header">
+                <h2 data-i18n="secWhyTitle">Why Choose Us</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <h3 data-i18n="why1">Experienced Care</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fa-solid fa-microscope"></i>
+                    <h3 data-i18n="why2">Modern Technology</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    <h3 data-i18n="why3">Patient-Focused</h3>
+                </div>
+                <div class="why-card">
+                    <i class="fa-solid fa-couch"></i>
+                    <h3 data-i18n="why4">Comfortable Environment</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Patient Reviews Slider -->
+        <section class="reviews reveal">
+            <div class="section-header">
+                <h2 data-i18n="secReviewTitle">Patient Stories</h2>
+            </div>
+            <div class="review-carousel">
+                <button class="review-btn prev-review" aria-label="Previous Review"><i class="fa-solid fa-angle-left"></i></button>
+                <div class="review-track-container">
+                    <div class="review-track">
+                        <div class="review-slide active">
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review-text" data-i18n="rev1">"The absolute best dental experience I've ever had. Professional, painless, and a beautiful clinic environment."</p>
+                            <h4 class="review-author">- Sarah M.</h4>
+                        </div>
+                        <div class="review-slide">
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review-text" data-i18n="rev2">"Dr. Laith transformed my smile with modern aligners. The friendly atmosphere makes you feel right at home."</p>
+                            <h4 class="review-author">- Ahmad K.</h4>
+                        </div>
+                        <div class="review-slide">
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review-text" data-i18n="rev3">"Remarkable precision and care. You immediately notice the high level of clinic hygiene and equipment quality."</p>
+                            <h4 class="review-author">- Rania D.</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="review-btn next-review" aria-label="Next Review"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Gallery Preview -->
+        <section class="gallery-preview reveal">
+            <div class="section-header">
+                <h2 data-i18n="secGalleryTitle">Clinic Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Clinic Interior" class="lightbox-trigger">
+                <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Treatment Room" class="lightbox-trigger">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dental Equipment" class="lightbox-trigger">
+            </div>
+            <div class="center-btn">
+                <a href="gallery.html" class="btn-main mt-2" data-i18n="btnGallery">View Full Gallery</a>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta reveal">
+            <h2 data-i18n="ctaTitle">Your Smile Deserves the Best Care</h2>
+            <p data-i18n="ctaDesc">Modern dentistry with a personalized approach.</p>
+            <div class="hero-buttons center-flex">
+                <a href="contact.html" class="btn-main" data-i18n="btnContact">Contact Us</a>
+                <a href="services.html" class="btn-secondary" data-i18n="btnServices">View Services</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-icon">L<br>R</div>
+                <p data-i18n="footerTagline">Premium dental care ensuring your perfect smile.</p>
+                <div class="social-group">
+                    <a href="#" class="s-fb" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="s-ig" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="s-wa" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="s-li" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="s-yt" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footerQuick">Quick Links</h4>
+                <a href="index.html" data-i18n="navHome">Home</a>
+                <a href="services.html" data-i18n="navServices">Services</a>
+                <a href="about.html" data-i18n="navAbout">About Us</a>
+                <a href="gallery.html" data-i18n="navGallery">Gallery</a>
+                <a href="contact.html" data-i18n="navContact">Contact</a>
+            </div>
+            <div class="footer-contact">
+                <h4 data-i18n="navContact">Contact</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Amman, Jordan</p>
+                <p><i class="fa-solid fa-phone"></i> +962 7 0000 0000</p>
+                <p><i class="fa-solid fa-envelope"></i> info@dramahi-dental.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dr. Laith AL-Ramahi Clinic. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="#" class="floating-wa" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged Image">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
