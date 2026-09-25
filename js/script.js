@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const translations = {
         en: {
-            drName: "Dr. Laith AL-Ramahi",
+            drName: "Dr. Amer Mustafa",
             specialty: "Orthodontics",
             navHome: "Home",
             navServices: "Services",
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             navGallery: "Gallery",
             navContact: "Contact",
             connectWithUs: "Connect With Us",
-            heroTitle: "Dr. Laith AL-Ramahi",
+            heroTitle: "Dr. Amer Mustafa",
             heroDesc: "Expert dental care and orthodontics with a personalized approach. We combine modern technology with years of experience to give you the perfect smile.",
             btnServices: "Explore Our Services",
             btnContact: "Contact Us",
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ctaReady: "Ready to transform your smile?"
         },
         ar: {
-            drName: "د. ليث الرمحي",
+            drName:  "د. عامر مصطفى",
             specialty: "تقويم الأسنان",
             navHome: "الرئيسية",
             navServices: "الخدمات",
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
             navGallery: "المعرض",
             navContact: "اتصل بنا",
             connectWithUs: "تواصل معنا",
-            heroTitle: "د. ليث الرمحي",
+            heroTitle: "د. عامر مصطفى",
             heroDesc: "رعاية أسنان وتقويم بخبرة متقدمة ونهج شخصي. نجمع بين أحدث التقنيات وسنوات الخبرة لمنحك ابتسامة متناسقة وجذابة.",
             btnServices: "استكشف خدماتنا",
             btnContact: "اتصل بنا",
